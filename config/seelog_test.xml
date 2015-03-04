@@ -1,0 +1,22 @@
+<seelog  type="asynctimer" asyncinterval="500000">  
+    <outputs formatid="common">
+        <filter levels="debug">
+          <rollingfile type="date" filename="/data/taphero/logs/%platformid_%serverid_test/taphero_dev_%platformid_%serverid_%processidx_debug.log" datepattern="2006.01.02" maxrolls="7" archivetype="zip" archivepath="/data/taphero/logs/%platformid_%serverid_test/dev_archive_logs"/>
+        </filter>
+        <filter levels="info">
+          <rollingfile type="date" filename="/data/taphero/logs/%platformid_%serverid_test/taphero_dev_%platformid_%serverid_%processidx_info.log" datepattern="2006.01.02" maxrolls="7" archivetype="zip" archivepath="/data/taphero/logs/%platformid_%serverid_test/dev_archive_logs"/>
+        </filter>
+        <filter levels="warn">
+          <rollingfile type="date" filename="/data/taphero/logs/%platformid_%serverid_test/taphero_dev_%platformid_%serverid_%processidx_warn.log" datepattern="2006.01.02" maxrolls="7" archivetype="zip" archivepath="/data/taphero/logs/%platformid_%serverid_test/dev_archive_logs"/>
+        </filter>
+        <filter levels="error">
+          <rollingfile type="date" filename="/data/taphero/logs/%platformid_%serverid_test/taphero_dev_%platformid_%serverid_%processidx_error.log" datepattern="2006.01.02" maxrolls="7" archivetype="zip" archivepath="/data/taphero/logs/%platformid_%serverid_test/dev_archive_logs"/>
+        </filter>
+        <filter levels="critical">
+          <rollingfile type="date" filename="/data/taphero/logs/%platformid_%serverid_test/taphero_dev_%platformid_%serverid_%processidx_critical.log" datepattern="2006.01.02" maxrolls="7" archivetype="zip" archivepath="/data/taphero/logs/%platformid_%serverid_test/dev_archive_logs"/>
+        </filter>
+    </outputs>
+    <formats>
+        <format id="common" format="%Time %Date %Msg %n"/>
+    </formats>
+</seelog>

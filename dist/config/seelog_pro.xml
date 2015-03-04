@@ -1,0 +1,19 @@
+<seelog  type="asynctimer" asyncinterval="50000000">  
+    <outputs formatid="common">
+        <filter levels="info">
+          <rollingfile type="date" filename="/data/taphero/logs/%platformid_%serverid/taphero_%platformid_%serverid_%processidx_info.log" datepattern="02.01.2006" maxrolls="7" archivetype="zip" archivepath="/data/taphero/logs/%platformid_%serverid/pro_archive_info_logs"/>
+        </filter>
+        <filter levels="warn">
+          <rollingfile type="date" filename="/data/taphero/logs/%platformid_%serverid/taphero_%platformid_%serverid_%processidx_warn.log" datepattern="02.01.2006" maxrolls="7" archivetype="zip" archivepath="/data/taphero/logs/%platformid_%serverid/pro_archive_warn_logs"/>
+        </filter>
+        <filter levels="error">
+          <rollingfile type="date" filename="/data/taphero/logs/%platformid_%serverid/taphero_%platformid_%serverid_%processidx_error.log" datepattern="02.01.2006" maxrolls="7" archivetype="zip" archivepath="/data/taphero/logs/%platformid_%serverid/pro_archive_error_logs"/>
+        </filter>
+        <filter levels="critical">
+          <rollingfile type="date" filename="/data/taphero/logs/%platformid_%serverid/taphero_%platformid_%serverid_%processidx_critical.log" datepattern="02.01.2006" maxrolls="7" archivetype="zip" archivepath="/data/taphero/logs/%platformid_%serverid/pro_archive_critical_logs"/>
+        </filter>
+    </outputs>
+    <formats>
+        <format id="common" format="%Time %Date %Msg %n"/>
+    </formats>
+</seelog>

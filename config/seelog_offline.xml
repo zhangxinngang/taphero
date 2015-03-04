@@ -1,0 +1,8 @@
+<seelog  type="asynctimer" asyncinterval="500000">  
+    <outputs formatid="common">
+      <rollingfile type="date" filename="/data/taphero/logs/taphero_analyze.log" datepattern="02.01.2006" maxrolls="7" archivetype="zip" archivepath="archive_logs"/>
+    </outputs>
+    <formats>
+        <format id="common" format="%Time %Date %RelFile %Func %Msg %n"/>
+    </formats>
+</seelog>

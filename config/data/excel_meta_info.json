@@ -1,0 +1,68 @@
+{	"stage":{"mysql_tbl_name":"",
+            "mysql_schema_file_prefix":"",
+            "test_schema_file_prefix":"",
+            "truncate_table_file_prefix":"",
+            "drop_table_file_prefix":"",
+            "locale":["eng","ger","kor","jap","traHk","chi","test","traTw"],
+            "mysql_data_file_prefix":""
+            },
+	"skill":{
+        "mysql_tbl_name":"",
+        "mysql_schema_file_prefix":"",
+        "test_schema_file_prefix":"",
+        "truncate_table_file_prefix":"",
+        "drop_table_file_prefix":"",
+        "locale":["eng","ger","kor","jap","traHk","chi","test","traTw"],
+        "mysql_data_file_prefix":""
+    },
+
+	"resource":{
+        "mysql_tbl_name":"",
+        "mysql_schema_file_prefix":"",
+        "test_schema_file_prefix":"",
+        "truncate_table_file_prefix":"",
+        "drop_table_file_prefix":"",
+        "locale":["eng","ger","kor","jap","traHk","chi","test","traTw"],
+        "mysql_data_file_prefix":""
+    },
+	"monster":{
+        "mysql_tbl_name":"",
+        "mysql_schema_file_prefix":"",
+        "test_schema_file_prefix":"",
+        "truncate_table_file_prefix":"",
+        "drop_table_file_prefix":"",
+        "locale":["eng","ger","kor","jap","traHk","chi","test","traTw"],
+        "mysql_data_file_prefix":""
+    },
+	"wordid":{
+        "mysql_tbl_name":"",
+        "mysql_schema_file_prefix":"",
+        "test_schema_file_prefix":"",
+        "truncate_table_file_prefix":"",
+        "drop_table_file_prefix":"",
+        "locale":["eng","ger","kor","jap","traHk","chi","test","traTw"],
+        "mysql_data_file_prefix":""
+    },
+
+	"modelshow":{
+        "mysql_tbl_name":"",
+        "mysql_schema_file_prefix":"",
+        "test_schema_file_prefix":"",
+        "truncate_table_file_prefix":"",
+        "drop_table_file_prefix":"",
+        "locale":["eng","ger","kor","jap","traHk","chi","test","traTw"],
+        "mysql_data_file_prefix":""
+    },
+
+	"map":{
+        "mysql_tbl_name":"",
+        "mysql_schema_file_prefix":"",
+        "test_schema_file_prefix":"",
+        "truncate_table_file_prefix":"",
+        "drop_table_file_prefix":"",
+        "locale":["eng","ger","kor","jap","traHk","chi","test","traTw"],
+        "mysql_data_file_prefix":"",
+        "_comment":"============================================不要在文件末尾加配置， 因为你很容易忘记加逗号============我是注释======================================================="
+    }
+
+}
